@@ -6,12 +6,12 @@ A small notes app built using NodeJS
 ## ➕ Add:
 Add a new note
 Need to include title and body
-```node app.js add --title="My Note" --body="Here is my note...."
+```node app.js add --title="My Note" --body="Here is my note...."```
 
 ## ➖ Remove:
 Remove a note
 Need to specify the note's title
-```node app.js remove --title="My Note"
+```node app.js remove --title="My Note"```
 
 ## 📋 List:
 List all notes
@@ -20,4 +20,4 @@ List all notes
 ## 🔍 Read:
 Read a Note
 Need to specify the note's title
-```node app.js read --title="My Note"
+```node app.js read --title="My Note"```
