@@ -20,16 +20,24 @@ Notes are saved into a .json file and managed via the command prompt using the f
 
 ### Add
 Use the `add` command to add a new note. The title of your note must be unique.
-    ```node app.js add --title="My Note" --body="Something about my note....."```
+```sh
+node app.js add --title="My Note" --body="Something about my note....."
+```
 
 ### Remove
 Use the `remove` command to delete a note.
-    ```node app.js remove --title="My Note"```
+```sh
+node app.js remove --title="My Note"
+```
 
 ### List
 Use the `list` command to list all of the notes.
-    ```node app.js list```
+```sh
+node app.js list
+```
 
 ### Read
 Use the `read` command to open a specific note.
-    ```node app.js read --title="My Note"```
+```sh
+node app.js read --title="My Note"
+```
