@@ -1,27 +1,3 @@
-# Notes App
-A small notes app built using NodeJS
-
-```node app.js```
-
-## ➕ Add:
-### Add a new note
-###### Need to include title and body
-```node app.js add --title="My Note" --body="Here is my note...."```
-
-## ➖ Remove:
-### Remove a note
-###### Need to specify the note's title
-```node app.js remove --title="My Note"```
-
-## 📋 List:
-### List all notes
-```note app.js list```
-
-## 🔍 Read:
-### Read a Note
-###### Need to specify the note's title
-```node app.js read --title="My Note"```
-
 <div align="center">
 <h3 align="center">Notes App</h3>
 
@@ -31,10 +7,7 @@ A small notes app built using NodeJS
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-To use the notes app simple run it in node using the command line with `node app.js` followed by one of the following commands: `add` `remove` `list` `read`. When calling a command, pass the **title** and **body** parameters.
+To use the notes app simply run it in node using the command line with `node app.js` followed by one of the following commands: `add` `remove` `list` `read`. When calling a command, pass the **title** and **body** parameters.
 
 ### Built With
 
