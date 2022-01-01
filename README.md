@@ -4,20 +4,20 @@ A small notes app built using NodeJS
 ```node app.js```
 
 ## ➕ Add:
-Add a new note
-Need to include title and body
+### Add a new note
+###### Need to include title and body
 ```node app.js add --title="My Note" --body="Here is my note...."```
 
 ## ➖ Remove:
-Remove a note
-Need to specify the note's title
+### Remove a note
+###### Need to specify the note's title
 ```node app.js remove --title="My Note"```
 
 ## 📋 List:
-List all notes
+### List all notes
 ```note app.js list```
 
 ## 🔍 Read:
-Read a Note
-Need to specify the note's title
+### Read a Note
+###### Need to specify the note's title
 ```node app.js read --title="My Note"```
