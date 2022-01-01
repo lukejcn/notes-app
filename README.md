@@ -41,3 +41,17 @@ Use the `read` command to open a specific note.
 ```sh
 node app.js read --title="My Note"
 ```
+
+## Contact
+
+Luke Jones - [@lukejcn](https://github.com/lukejcn)
+
+Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+* [Andrew Mead](mead.io)
