@@ -1,10 +1,6 @@
 fs = require('fs')
 chalk = require('chalk')
 
-const getNotes = (note) => {
-    fs.writeFileSync('notes.txt', note)
-}
-
 const addNote = (title, body) => {
     const notes = loadNotes()
     const duplicateNote = notes.find((note) => note.title === title)
@@ -57,6 +53,10 @@ const readNote = (title) => {
     } else {
         console.log(chalk.magenta('Note not found!'))
     }
+}
+
+const getNotes = (note) => {
+    fs.writeFileSync('notes.txt', note)
 }
 
 const saveNotes = (notes) => {
